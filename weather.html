@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather API</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box">
+
+            <div class="search">
+                <input type="text" placeholder="Enter City Name" class="input">
+                <button type="submit" class="img_btn"><img src="imgs/search.png" class="btn"></button>
+            </div>
+
+
+            <div class="display">
+                <img src="imgs/cloudy.png" alt="" class="weather">
+                <h1 class="temp">15°C</h1>
+                <h2 class="city">Delhi</h2>
+            </div>
+
+
+            <div class="bottom">
+                <div class="humidity">
+                    <img src="imgs/humidity.png" class="humid">
+                    <div class="hd">
+                        <div class="t1 humid_value">x%</div>
+                        <div class="t2">Humidity</div>
+                    </div>
+                </div>
+                <div class="winds">
+                    <img src="imgs/wind speed.png" class="speed">
+                    <div class="ws">
+                        <div class="t1 wind_speed">x km/h</div>
+                        <div class="t2">Wind Speed</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="weather.js"></script>
+</body>
+
+</html>

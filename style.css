@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "barlow";
+    font-size: 20px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #222;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box {
+    height: 80%;
+    width: 35%;
+    color: #fff;
+    background: linear-gradient(130deg, #00feba, #5b548a);
+    box-shadow: 10px 10px 50px rgb(17, 125, 152);
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.display {
+    height: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.btns {
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns:hover {
+    box-shadow: 8px 8px 50px black inset;
+}
+
+.image {
+    height: 25%;
+    width: 30%;
+}
+
+
+.btn {
+    margin: 12px;
+    height: 50%;
+}
+
+.weather {
+    height: 30%;
+    width: 15%;
+}
+
+.s {
+    width: 70%;
+    border-radius: 2em;
+    text-align: center;
+    border: none;
+}
+
+.input {
+    width: 60%;
+    border: none;
+    border-radius: 2em;
+    text-align: center;
+}
+
+.img_btn {
+    margin-left: 16px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.temp,
+.city {
+    font-size: 50px;
+}
+
+
+.bottom {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.humidity,
+.winds {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.speed,
+.humid {
+    width: 50%;
+}
+
+
+.t2 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.hd,.ws{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.t1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 22px;
+
+}
